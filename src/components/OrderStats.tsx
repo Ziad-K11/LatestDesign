@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Cards = () => {
     return (
-        <div className="flex flex-row pt-7 px-10 gap-5">
+        <div className="flex flex-row pt-7 px-10 pb-9 gap-5">
             <div className="flex gap-5 border rounded-md flex-col p-5">
                 <div className="text-black flex gap-5 w-fill">
                     <Image
