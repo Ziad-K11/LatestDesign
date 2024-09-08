@@ -12,13 +12,13 @@ interface FoodData {
 
 const foodData: FoodData[] = [
     { id: 1, image: "Burger.svg", title: "American Style Burger", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
-    { id: 2, image: "/path-to-pokebowl.jpg", title: "Hawaiian Pokebowl", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
-    { id: 3, image: "/path-to-american-burger.jpg", title: "Chicken Curry Katsu", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
-    { id: 4, image: "/path-to-american-burger.jpg", title: "Sushi Platter", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
-    { id: 5, image: "/path-to-american-burger.jpg", title: "Blueberry Cheese Pancake", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
-    { id: 6, image: "/path-to-american-burger.jpg", title: "Croissant Set", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
-    { id: 7, image: "/path-to-american-burger.jpg", title: "Chicken Taco", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
-    { id: 8, image: "/path-to-american-burger.jpg", title: "Grandma’s Carrot Cake", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" }
+    { id: 2, image: "pokebowl.svg", title: "Hawaiian Pokebowl", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
+    { id: 3, image: "Curry.svg", title: "Chicken Curry Katsu", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
+    { id: 4, image: "Sushi.svg", title: "Sushi Platter", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
+    { id: 5, image: "Pancake.svg", title: "Blueberry Cheese Pancake", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
+    { id: 6, image: "Baked.svg", title: "Croissant Set", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
+    { id: 7, image: "Taco.svg", title: "Chicken Taco", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" },
+    { id: 8, image: "Cake.svg", title: "Grandma’s Carrot Cake", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit", price: "$27.09/portion" }
 
     // Add more items as per your data
 ];
