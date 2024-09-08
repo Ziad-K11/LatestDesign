@@ -1,12 +1,14 @@
 import RootLayout from '../layout';
+import FoodMenu from '@/components/FoodMenu';
+import CategoryBar from '@/components/CategoryBar';
 
 export default function OrdersPage() {
   return (
-    
-      <div>
-        <h2>Your Orders</h2>
-        {/* Orders content goes here */}
-      </div>
-  
+
+    <div>
+      <CategoryBar />
+      <FoodMenu />
+    </div>
+
   );
 }
